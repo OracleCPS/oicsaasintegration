@@ -4,7 +4,7 @@
 
 > Updated: March 13th, 2018
 
-## Journey To The Cloud: Oracle Integration Cloud (OIC) - Enterprise Integration Hands On Lab
+## Upgrade To Cloud: Oracle Integration Cloud (OIC) - Enterprise SaaS Integration Hands On Lab
 A hands-on workshop to dive into development on Oracle's Integration Cloud Platform
 
 ## Overview
