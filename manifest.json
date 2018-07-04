@@ -1,0 +1,80 @@
+{
+    "workshop": {
+        "title": "Journey To The Cloud: Oracle Autonomous Integration Cloud (AIC) Fusion SaaS Integration Hands-on Workshop",
+        "description": "A hands-on event to explore Oracle’s Integration Cloud.",
+        "theme": "ttc",
+        "interactive": "https://launch.oracle.com/?ttcicsdeveloper",
+        "labs": [{
+                "number": "1",
+                "filename": "Home.md",
+                "title": "Home",
+                "description": "Welcome to the OIC Fusion SaaS Integration Workshop"
+            },{
+                "number": "10",
+                "filename": "StudentGuide.md",
+                "title": "Prerequisites",
+                "description": "Workshop guidance and prerequisites"
+            },
+            {
+                "number": "50",
+                "filename": "ics000.md",
+                "title": "Lab Zero: Full Workshop Solution",
+                "description": "This lab will provide a walkthrough of the full solution for the Hands-on Workshop."
+            },
+            {
+                "number": "100",
+                "filename": "ics100.md",
+                "title": "Lab 100: Exploring Oracle Integration Cloud",
+                "description": "This lab will expose you to the functionality in OIC Integration."
+            },
+            {
+                "number": "200",
+                "filename": "ics200.md",
+                "title": "Lab 200: Basic AIC Development (Hello World Integration)",
+                "description": "In this Lab we are going to build a 'hello world' echo service."
+            },
+            {
+                "number": "300",
+                "filename": "ics300.md",
+                "title": "Lab 300: Fusion SaaS Application Setup (ERP Adapters)",
+                "description": "In this Lab we are going to review the configuration steps on Fusion SaaS applications (ERP, HCM, CRM etc.) to enable connectivity through AIC Fusion SaaS Adapters."
+            },
+            {
+                "number": "400",
+                "filename": "ics400.md",
+                "title": "Lab 400: Oracle Sales Cloud (Events) - Opportunity to Order",
+                "description": "In this Lab we are going to create an integration flow that listens to events in Oracle Sales Cloud. OSC events will trigger an integration flow, for example, an opportunity created in OSC is used to create an order."
+            },
+            {
+                "number": "500",
+                "filename": "ics500.md",
+                "title": "Lab 500: Fusion HCM (Atom Feeds) - Hire to Retire",
+                "description": "In this Lab we are going to create an integration flow that retrieves ATOM Feeds from Fusion HCM for processing, for example, New Hire ATOM Feeds."
+            },
+            {
+                "number": "600",
+                "filename": "ics600.md",
+                "title": "Lab 600: Fusion ERP (Batch Processing -FBDI) – GL Processing",
+                "description": "In this Lab we are going to use AIC Fusion ERP Adapter to process a Fusion ERP FBDI file and load the contents into Fusion ERP."
+            },
+            {
+                "number": "700",
+                "filename": "ics700.md",
+                "title": "Lab 700: Fusion ERP (Events – PDH, Purchase Order) – Data Synchronization",
+                "description": "In this Lab we are going to use AIC Fusion ERP Adapter to listen to Fusion ERP events (i.e, Product Data Hub Item Creation etc.). The Integration Flow will process the events and place into a File."
+            },
+            {
+                "number": "800",
+                "filename": "ics800.md",
+                "title": "Lab 800: Oracle Cloud Integration Marketplace Recipe",
+                "description": "In this Lab we are going to download and implement a recipe from Oracle Integration Cloud Marketplace."
+            },
+            {
+                "number": "900",
+                "filename": "ics900.md",
+                "title": "Lab 900: Security - Enterprise API Governance",
+                "description": "In this Lab we are going to add an existing Fusion SaaS REST API to API Platform Cloud Service, secure the API with Policies."
+            }
+        ]
+    }
+}
