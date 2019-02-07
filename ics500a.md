@@ -1,10 +1,12 @@
 <img class="float-right" src="images/j2c-logo.png">
 
-#  **Oracle Integration Cloud (OIC) Development Workshop** 
+#  **Lab 500 - Part A: Oracle Integration Cloud (OIC) Development Workshop** 
+
+Pre-Development Lab
 
 ## **Objectives**
 
-- To configure the Oralce Integration Cloud (OIC) environment in order to complete Lab 500
+- To configure the Oralce Integration Cloud (OIC) environment in order to complete Lab 500B
 
 ## **Introduction**
 
