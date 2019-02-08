@@ -10,48 +10,57 @@
 
 [GitHub IO Pages](https://rebrand.ly/ttcicslab)
 
-# Deep Dive ICS
+# Deep Dive Oracle Integration Cloud (OIC)
 
 **Reference the following Lab Guides by opening their Documentation Files:**
-## Required pre-work
+## **Required pre-work**
 
-**Documentation**: ics000.md
+> **Documentation**: [Lab 000](/ics000.md)
+> 
+> ### **Objectives**
+> - 
 
-## Lab 100: Getting Started
+## **Lab 100: Explore OIC**
 
-**Documenation**: ics100.md
+> **Documenation**: [Lab 100](/ics100.md)
+> 
+> ### **Objectives**
+> - Explore Integration Cloud Service (OIC) to become familiar with its service console and functionality.
 
-### Objectives
-The objective of this lab is to expose you to:
+## **Lab 200: Basic OIC Development**
 
-- **Getting familiar with ICS concepts**
+> **Documenation**: [Lab 200](/ics200.md)
+>
+> ### **Objectives**
+> - Create your first integration to echo an input to the output by building a 'Hello World' integration
 
-## Lab 200: Mappings
+## **Lab 300: Fusion SaaS Application Adapter Configuration**
 
-**Documenation**: ics200.md
+> **Documenation**: [Lab 300](/ics300.md)
+> 
+> ### **Objectives**
+> - 
 
-### Objectives
-The objective of this lab is to expose you to:
+## **Lab 400: COMING SOON**
 
-- **Build your first 'hello world' integration**
+> **Documentation**: [Lab 400](/ics400.md)
+> 
+> ### Objectives
+> 
+> - Objective Pending
 
+## **Lab 500a: Fusion HCM with ATOM Feeds Pre-Development Lab**
 
-## Lab 300: Adapters
+> **Documentation**: [Lab 500a](/ics500a.md)
+> 
+> ### Objectives
+> 
+> - **Objective Needed**
 
-**Documenation**: ics300.md
+## **Lab 500b: Fusion HCM with ATOM Feeds Development Lab**
 
-### Objectives
-The objective of this lab is to expose you to the:
-
-- **Integration into backend systems**
-
-- **Database adapter**
-
-## Lab 400: Orchestration
-
-**Documentation**: ics400.md
-
-### Objectives
-
-- **Use the previous labs experiences to build a integration into Oracle's eBusiness Suite**
-
+> **Documentation**: [Lab 500b](/ics500b.md)
+> 
+> ### Objectives
+> 
+> - **Objective Needed**
