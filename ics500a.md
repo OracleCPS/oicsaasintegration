@@ -180,7 +180,7 @@ and **_Connection_** URL should just be the Base URL of the HCM instance
 # **NEXT STEPS:**
 IN THE NEXT LAB (500B) YOU WILL GO ON TO BUILD THE FULL INTEGRATION DEPICTED BELOW:
 
-![](images/500a/integration_tracing.png) 
+![](images/500b/image46.png) 
 
 This integration does xyz
 

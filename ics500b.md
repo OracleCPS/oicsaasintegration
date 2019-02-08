@@ -8,21 +8,22 @@
 
 ## **Introduction**
 
-- Before we dive in and create the integration, we want you to get an understanding of the flow and the end result you are working to obtain from the integration flow. This lab will walk you through uploading the integration artifacts and testing the flow in Postman, and API testing tool.
+- Before 
 
 ## **Pre-Requisites**
  
-- Workshop participant or lab instructor should have already completed Lab 500a
+- Workshop participant or lab instructor should have already completed [Lab 500a](/ics500a.md)
 
 ## **Getting Started**
 
 **For this lab you will need access to the following:**
 
-1. Internet Connection
-2. Web Browser
-3. Oracle Cloud Account with Integration Instance Provisioned
-4. getEmployeeResponse.json
-5. newEmployeeFile.csv
+1. [Lab 500a](/ics500a.md) Completed
+2. Internet Connection
+3. Web Browser
+4. Oracle Cloud Account with Integration Instance Provisioned
+5. [getEmployeeResponse.json](/images/500b/other_files/getEmployeeResponse.json)
+6. [newEmployeeFile.csv](/images/500b/other_files/newEmployeeFile.csv)
 
 ## **500b.1: Log in to the Oracle Integration Cloud Home Page and Nagivate to the Integration Designer Page**
 **500b.1.1**: Navigate to the Home Page by using the OIC URL provided to you by your instructor. The URL should have the following pattern: 
@@ -36,19 +37,65 @@ https://{**InstanceName**}-{**CloudAccountName**}.integration.ocp.oraclecloud.co
 
 ![](images/oic-1.png)
 
-## **500b.2: Log in to the Oracle Integration Cloud Home Page and Nagivate to the Integration Designer Page**
-![](images/500b/image000.png)  
-![](images/500b/image001.png)  
-![](images/500b/image002.png)  
-![](images/500b/image003.png)  
-![](images/500b/image004.png)  
-![](images/500b/image005.png)  
-![](images/500b/image006.png)  
+## **500b.2: Create a Scheduled Orchestration**
+**500b.2.1**: From the Integrations Designer Page, Select Create and Choose the Integration style _App Driven Orchestration_
+![](images/integration_style.png)  
+
+**500b.2.2**: Give the integration a name
+![](images/integration_name.png) ***!!!!! ***
+
+**500b.2.2**: Click on the schedule icon and select the pencil to edit the details
+
+<img src="images/500b/image000.png" width="100px">
+---> 
+<img src="images/500b/image001.png" width="110px">  
+
+**500b.2.2**: 
+- Name the Parameter: _ATOMLastRunDateTime_
+- Enter the description as: _Last successful processed ATOM pull_
+- Enter the value as: 2018-01-01T00:00:00.000Z
+
+Once completed, close to be brought back to the main integration 
+
+![](images/500b/image002.png) 
+
+**500b.2.3**:  
+
+<img src="images/500b/image003.png" width="500px"> 
+
+<img src="images/500b/image004.png" width="500px"> 
+
+**500b.2.4**: 
+
+<img src="images/500b/image005.png" width="100px">
+
+![](images/500b/image006.png)
+
+**500b.2.5**: Select the + Function button and select the addTime function listed in the menu. You will be redirected to a page with two parameters. On the first parameter labeled _ts_, click on the pencil then paste in the following to the expression builder: 
+> **_concat(substring-before(/nssrcmpr:schedule/nssrcmpr:startTime,"."),".000Z")_**
+
+Validate, Save, and Close.
+
+**500b.2.6**: Click the pencil icon for the second parameter, _z_ to be redirected to the expression builder. In the Source panel, select and drag the **lookupValue** menu item from the Components>Functions>Integration Cloud menu into the expression builder. 
+
+As a result, the Lookup Wizard will open.
+
 ![](images/500b/image007.png)  
-![](images/500b/image008.png)  
+
+The value for the parameter ‘srcValue is not filled….
+
+/nssrcmpr: schedule
+
+![](images/500b/image008.png)
+
+
+
 ![](images/500b/image009.png)  
 ![](images/500b/image010.png)  
-![](images/500b/image011.png)  
+![](images/500b/image011.png) 
+
+
+
 ![](images/500b/image012.png)  
 ![](images/500b/image013.png)  
 ![](images/500b/image014.png)  
