@@ -294,7 +294,11 @@ Validate and Close to be brought back to the upper level screen where you should
 
 ![](images/500b/image038.png)  
 
-**500b.8.4**: To define the file content structure, browse for and upload the [New Employee CSV](/images/500b/other_files/newEmployeeFile.csv)
+**500b.8.4**: To define the file content structure:
+- browse for and upload the [New Employee CSV](/images/500b/other_files/newEmployeeFile.csv)
+- Enter the Record Name as: User
+- Enter the Recordset Name as: NewUser
+- Select the field delimeter as _Comma(,)_
 
 ![](images/500b/image039.png)  
 
