@@ -54,7 +54,7 @@ https://{**InstanceName**}-{**CloudAccountName**}.integration.ocp.oraclecloud.co
 
 **500b.2.1**: From the Integrations Designer Page, Select Create and Choose the Integration style _Scheduled Orchestration_
 
-![](images/integration_style.png)  
+![](images/scheduled_orch.png)  
 
 **500b.2.2**: Give the integration a name. Please use the naming convention listed in the image below where XX is replaced by your initials
 
