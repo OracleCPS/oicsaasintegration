@@ -1,19 +1,20 @@
 <img class="float-right" src="images/j2c-logo.png">
 
 #  **Lab 500 - Part A: Oracle Integration Cloud (OIC) Development Workshop** 
+> ***Last Updated: February 2019***  
 
 Fusion HCM with ATOM Feeds Pre-Development Lab
 
 ## **Introduction**
 
-- Intro
+> This lab is part of a series of **OIC Development** workshops created to provide users with hands-on experience building functional integrations in the cloud using Oracle Integration Cloud. In this lab, we will configure the connections and other parts of OIC that will be utilized in [Lab 500B](/ics500b.md). This lab assumes that you are already somewhat familiar with the OIC interface and logged into the instance.
 
 ## **Objectives**
 
-- To configure the Oralce Integration Cloud (OIC) environment in order to complete Lab 500B
-- The participant will create the connections needed in the integration
-- The participant will create a lookup function
-- The participant will create an OIC library connection
+> - To configure the Oracle Integration Cloud (OIC) environment in order to complete Lab 500B
+> - Create the connections needed in the integration created in Lab 500B
+> - Create a lookup function
+> - Create an OIC library connection
 
 ## **Software Pre-Requisites**
 This lab will provide you with the resources you will need to complete subsequent labs in this workshop
@@ -22,8 +23,10 @@ This lab will provide you with the resources you will need to complete subsequen
 
 1. Internet Connection
 2. Web Browser
-3. DateTimeLib4.jar File
+3. [DateTimeLib4.jar File](/images/500b/other_files/DateTimeLib4_1.0.jar)
 4. Oracle Cloud Account with Integration Instance Provisioned
+5. HCM enviornment details
+6. SFTP server details
 
 ---
 
@@ -32,7 +35,7 @@ Although most modern browsers are supported. We recommend using *Firefox or Chro
 >If you are having issues with either browser, please clear your cookies or work in private browsing/incognito mode
 
 ---
-# **Required Set-Up**
+# **Set-Up Required For Lab500B**
 
 ## **500a.1: Importing Add Time Function into OIC Library**
 
@@ -178,18 +181,12 @@ and **_Connection_** URL should just be the Base URL of the HCM instance
 <img src="images/testsaveclose.png" width="200px">
 
 # **NEXT STEPS:**
-IN THE NEXT LAB (500B) YOU WILL GO ON TO BUILD THE FULL INTEGRATION DEPICTED BELOW:
+IN THE NEXT LAB YOU WILL GO ON TO BUILD THE FULL INTEGRATION DEPICTED BELOW:
 
-![](images/500b/image46.png) 
-
-This integration does xyz
+![](images/500b/image046.png) 
 
 # **Additional Resources**
- > [What is an API?](https://www.google.com/search?q=what%27s+an+api&spell=1&sa=X&ved=0ahUKEwj2v7yA7KLgAhXdFzQIHazAADsQBQgpKAA&biw=1440&bih=798&dpr=2)
-
- > [What is an API? -- Video](https://youtu.be/IAFN2UzN784)
-
- > [Oracle My Services Log In](https://cloud.oracle.com/en_US/sign-in)
+ > [Oracle Adapters Documentation](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
 
 --- 
 # **THIS LAB IS NOW COMPLETED**

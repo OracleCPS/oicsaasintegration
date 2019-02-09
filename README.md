@@ -55,7 +55,10 @@
 > 
 > ### Objectives
 > 
-> - **Objective Needed**
+> - To configure the Oracle Integration Cloud (OIC) environment in order to complete Lab 500B
+> - Create the connections needed in the integration created in Lab 500B
+> - Create a lookup function
+> - Create an OIC library connection
 
 ## **Lab 500b: Fusion HCM with ATOM Feeds Development Lab**
 
@@ -63,4 +66,7 @@
 > 
 > ### Objectives
 > 
-> - **Objective Needed**
+> - To Create a Scheduled Orchestration
+> - Gain familiarity with working with switch actions and for each loops in OIC
+> - Explore monitoring in OIC
+> - Explore ATOM feeds using Oracle's Fusion HCM
