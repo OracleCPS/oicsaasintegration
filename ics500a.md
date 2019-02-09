@@ -128,15 +128,18 @@ _first.last@email.com_ under column B
 ![](images/500a/name_connection.png) 
 
 **500a.3.5**: 
-- Under the Connection Properties, enter the WSDL url which is typically follows this pattern: https://{***HcmInstanceBaseURL***}/fndAppCoreServices/ServiceCatalogService?WSDL
+- Under the Connection Properties:
+    - enter the WSDL URL 
+        -  which typically follows this pattern: https://{***HcmInstanceBaseURL***}/fndAppCoreServices/ServiceCatalogService?WSDL
 
-- Under the Security, enter the username and password of the administrator on the instance 
+- Under the Security:
+    - enter the username and password of the administrator on the instance 
 
 ![](images/500a/hcm_connection.png) 
 
 **500a.3.6**: Once completed, save and test your connection. Once you are prompted with a success message, save once more and close. 
 
-<img src="images/testsaveclose.png" width="200px">  
+<img src="images/testSaveClose.png" width="200px">  
 
 **500a.3.7**: To create the next connection, click the Create button. A window will open where you will see our library of pre-built adapters. Scroll or Search for the REST adapter
 
@@ -149,17 +152,19 @@ _first.last@email.com_ under column B
 ![](images/500a/.png) 
 
 **500a.3.9**:
-- Under the Connection Properties, enter the connection type as **_BASE_**....
-**_TLSVersion_** 1.1 is fine
-and **_Connection_** URL should just be the Base URL of the HCM instance
+- Under the Connection Properties:
+    - enter the connection type as **_REST API Base URL_**
+    - choose **_TLSVersion_** 1.1
+    - The **_Connection URL_** should just be the Base URL of the HCM instance
 
-- Under the Security, enter the username and password of the administrator on the instance 
+- Under the Security:
+    - enter the username and password of the administrator on the instance 
 
 ![](images/500a/hcm_rest.png) 
 
 **500a.3.10**: Once completed, save and test your connection. Once you are prompted with a success message, save once more and close. 
 
-<img src="images/testsaveclose.png" width="200px">
+<img src="images/testSaveClose.png" width="200px">
 
 **500a.3.11**: To create the next connection, click the Create button. A window will open where you will see our library of pre-built adapters. Scroll or Search for the FTP adapter
 
@@ -171,14 +176,21 @@ and **_Connection_** URL should just be the Base URL of the HCM instance
 
 ![](images/500a/ftp_name.png) 
 
-**500a.3.13**:
-- Under the Connection Properties, enter ....
+**500a.3.13**: To configure the FTP Connection:
+- Under the Connection Properties:
+    - Enter the Server Host Address
+    - Port (typically 22)
+    - if SFTP, specify as such
 
-- Under the Security, enter the username and password to access the server otherwise please attach the associated private key
+- Under the Security Properties:
+    - enter the username and password to access the server 
+
+    OR
+    - attach the associated private key
 
 **500a.3.14**: Once completed, save and test your connection. Once you are prompted with a success message, save once more and close. 
 
-<img src="images/testsaveclose.png" width="200px">
+<img src="images/testSaveClose.png" width="200px">
 
 # **NEXT STEPS:**
 IN THE NEXT LAB YOU WILL GO ON TO BUILD THE FULL INTEGRATION DEPICTED BELOW:
