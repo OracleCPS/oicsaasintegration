@@ -31,7 +31,7 @@ This lab will provide you with the resources you will need to complete subsequen
 ---
 
 ## **Recommended Web Browser**
-Although most modern browsers are supported. We recommend using *Firefox or Chrome*. As of the last update of this lab, Visual Builder Cloud Service (VBCS) best functions using Chrome.  
+Although most modern browsers are supported. We recommend using *Firefox or Chrome*
 >If you are having issues with either browser, please clear your cookies or work in private browsing/incognito mode
 
 ---

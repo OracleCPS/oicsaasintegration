@@ -31,49 +31,55 @@
                 "number": "200",
                 "filename": "ics200.md",
                 "title": "Lab 200: Basic AIC Development (Hello World Integration)",
-                "description": "In this Lab we are going to build a 'hello world' echo service."
+                "description": "In this lab, we are going to build a 'hello world' echo service."
             },
             {
                 "number": "300",
                 "filename": "ics300.md",
                 "title": "Lab 300: Fusion SaaS Application Setup (ERP Adapters)",
-                "description": "In this Lab we are going to review the configuration steps on Fusion SaaS applications (ERP, HCM, CRM etc.) to enable connectivity through AIC Fusion SaaS Adapters."
+                "description": "In this lab, we are going to review the configuration steps on Fusion SaaS applications (ERP, HCM, CRM etc.) to enable connectivity through AIC Fusion SaaS Adapters."
             },
             {
                 "number": "400",
                 "filename": "ics400.md",
                 "title": "Lab 400: Oracle Sales Cloud (Events) - Opportunity to Order",
-                "description": "In this Lab we are going to create an integration flow that listens to events in Oracle Sales Cloud. OSC events will trigger an integration flow, for example, an opportunity created in OSC is used to create an order."
+                "description": "In this lab, we are going to create an integration flow that listens to events in Oracle Sales Cloud. OSC events will trigger an integration flow, for example, an opportunity created in OSC is used to create an order."
             },
             {
-                "number": "500",
-                "filename": "ics500.md",
-                "title": "Lab 500: Fusion HCM (Atom Feeds) - Hire to Retire",
-                "description": "In this Lab we are going to create an integration flow that retrieves ATOM Feeds from Fusion HCM for processing, for example, New Hire ATOM Feeds."
+                "number": "500-1",
+                "filename": "ics500a.md",
+                "title": "Lab 500 A: Fusion HCM with ATOM Feeds Pre-Development Lab",
+                "description": "In this lab, we are going to set up the OIC environment with elements that will be used in the next lab (LAB 500B)."
+            },
+            {
+                "number": "500-2",
+                "filename": "ics500b.md",
+                "title": "Lab 500B: Fusion HCM with ATOM Feeds Development Lab",
+                "description": "In this lab, we are going to create an integration flow that retrieves ATOM Feeds from Fusion HCM for processing, for example, New Hire ATOM Feeds."
             },
             {
                 "number": "600",
                 "filename": "ics600.md",
                 "title": "Lab 600: Fusion ERP (Batch Processing -FBDI) – GL Processing",
-                "description": "In this Lab we are going to use AIC Fusion ERP Adapter to process a Fusion ERP FBDI file and load the contents into Fusion ERP."
+                "description": "In this lab, we are going to use AIC Fusion ERP Adapter to process a Fusion ERP FBDI file and load the contents into Fusion ERP."
             },
             {
                 "number": "700",
                 "filename": "ics700.md",
                 "title": "Lab 700: Fusion ERP (Events – PDH, Purchase Order) – Data Synchronization",
-                "description": "In this Lab we are going to use AIC Fusion ERP Adapter to listen to Fusion ERP events (i.e, Product Data Hub Item Creation etc.). The Integration Flow will process the events and place into a File."
+                "description": "In this lab, we are going to use AIC Fusion ERP Adapter to listen to Fusion ERP events (i.e, Product Data Hub Item Creation etc.). The Integration Flow will process the events and place into a File."
             },
             {
                 "number": "800",
                 "filename": "ics800.md",
                 "title": "Lab 800: Oracle Cloud Integration Marketplace Recipe",
-                "description": "In this Lab we are going to download and implement a recipe from Oracle Integration Cloud Marketplace."
+                "description": "In this lab, we are going to download and implement a recipe from Oracle Integration Cloud Marketplace."
             },
             {
                 "number": "900",
                 "filename": "ics900.md",
                 "title": "Lab 900: Security - Enterprise API Governance",
-                "description": "In this Lab we are going to add an existing Fusion SaaS REST API to API Platform Cloud Service, secure the API with Policies."
+                "description": "In this lab, we are going to add an existing Fusion SaaS REST API to API Platform Cloud Service, secure the API with Policies."
             }
         ]
     }
